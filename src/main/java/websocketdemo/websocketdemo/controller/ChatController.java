@@ -21,6 +21,7 @@ public class ChatController {
         headerAccessor.getSessionAttributes().put("username", chatMessage.getSender());
         System.out.println("Tuan");
         System.out.println("Long ...");
+        System.out.println("Tuan Done");
         return chatMessage;
     }
 }
